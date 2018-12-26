@@ -1,0 +1,25 @@
+@media only screen and (min-width:240px) and (max-width:320px) {
+    /*
+    */
+    header{
+        background-color: #f30;
+        height: 55px;
+        padding-top:25px;
+    }
+}
+
+@media only screen and(min-width:320px) and (max-width:40px){
+    /* 
+    */
+header{ 
+    background-color: #93f;
+}
+}
+
+@media only screen and(mim-width:480px) and (max-width:720px){
+    /*
+    */
+    background-color: #699;
+}
+
+
