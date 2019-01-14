@@ -62,30 +62,37 @@
     text-align: left;
   }
 } 
-/*to make all content align to the center*/
-.body{
-  padding:10px;
-  width:70%;
-  margin:auto;
+/*to remove underline and blue color from a element*/
+
+
+.col-sm-3 a{
+  color:white;
+}
+.col-sm-3 a:hover{
+  text-decoration: none;
+  color:gray;
+}
+.col-sm-3 h4{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+/*footer styling*/
+footer{
+  padding:20px;
+  text-align: center;
+  background-color: rgb(31, 29, 29);
+  color:white;
 }
 
-.row::after{
-  display:table;
-  content:"";
-  clear:both;
+/*to give about klintek color*/
+.twocolor h3{
+  display:inline;
 }
-.column{
-  float:left;
-  width:50%;
+.ddh{
+  color:green;
 }
-/*style column and column images*/
-.column img {
- width:80px;
- height:60px;
- position: relative;
-}
-.imagery{
-  position: absolute;
-  top:40px;
 
+/*img hover*/
+.col-sm-4 img:hover{
+background-color: rgba(0, 0, 0, 0.404);
 }
