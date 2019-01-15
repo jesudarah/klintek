@@ -1,0 +1,5 @@
+{
+    "require": {
+        "klintek/json": "1.0.*"
+    }
+}
