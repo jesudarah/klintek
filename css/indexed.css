@@ -8,6 +8,8 @@
   background-color: rgb(20, 6, 6);;
   overflow: hidden;
   padding:10px;
+
+  width:100%;
 }
 /*Adjust logo size and position*/
 .topnav img {
@@ -24,6 +26,9 @@
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+}
+.topnav a{
+  text-decoration: none;
 }
 
 
@@ -95,4 +100,10 @@ footer{
 /*img hover*/
 .col-sm-4 img:hover{
 background-color: rgba(0, 0, 0, 0.404);
+}
+
+.imagery img{
+  position:absolute;
+top:25%;
+left:47%;
 }
